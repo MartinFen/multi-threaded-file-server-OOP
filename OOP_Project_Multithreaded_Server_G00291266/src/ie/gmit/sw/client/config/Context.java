@@ -1,18 +1,11 @@
 package ie.gmit.sw.client.config;
 
-
-/* A context represents the entire scope of an application, i.e.
- * we can assign "global variables" to a context.
- * 
- * This is a "bean class", containing a constructor and accessor
- * methods only.
- */
 public class Context {
 	//Variables--------------------------------------------------------------------------
 	public static final String CONF_FILE="client-config.xml";
 	private String username;
 	private String host;
-	private int port;
+	private String port;
 	private String dir;
 	
 	//constructor--------------------------------------------------------------------------
@@ -29,11 +22,11 @@ public class Context {
 		this.host = host;
 	}
 
-	public int getPort() {
+	public String getPort() {
 		return port;
 	}
 
-	public void setPort(int port) {
+	public void setPort(String port) {
 		this.port = port;
 	}
 

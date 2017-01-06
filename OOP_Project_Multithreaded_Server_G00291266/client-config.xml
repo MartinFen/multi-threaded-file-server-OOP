@@ -13,7 +13,8 @@
 	make the parsing of such information easier than working with other formats. 
 -->
 
-<client-config>
-<server-details username="gmit-sw2016" host="127.0.0.1" port="7777"/>
-<download-dir>./downloads/</download-dir>
+<client-config username="gmit-sw2016">
+	<server-host>127.0.0.1</server-host>
+	<server-port>7777</server-port>
+	<download-dir>./downloads/</download-dir>
 </client-config>
