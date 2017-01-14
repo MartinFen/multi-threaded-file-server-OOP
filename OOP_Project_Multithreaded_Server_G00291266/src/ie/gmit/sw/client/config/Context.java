@@ -47,7 +47,6 @@ public class Context {
 	}
 	
 	//Overriden methods--------------------------------------------------------------------------
-	@Override
 	public String toString() {
 		return "Context [username=" + username + ", host=" + host + ", port=" + port + ", dir=" + dir + "]";
 	}
