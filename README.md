@@ -1,2 +1,2 @@
 # multi-threaded-file-server-OOP
-This is my project for my third year module OOP
+A multi threaded file server made using java for my third year module Object Oriented Programming
